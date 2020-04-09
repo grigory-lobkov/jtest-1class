@@ -26,8 +26,9 @@ int `priority` - to set priority for test and make some order in execution
 
 ## Assertions
 
-Assert.equals - check if equals for `int`, `long`, `Comparable`
-Assert.isNull - check if `Object` is `null`
+`Assert.equals` - check if equals for `int`, `long`, `Comparable`
+
+`Assert.isNull` - check if `Object` is `null`
 
 ## Contribution
 
