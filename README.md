@@ -1,8 +1,8 @@
 # jTest
 
-## Overview
+## Java classes simple test framework
 
-JUnit-like class for test your programs for Java. It will help you in creating tests for your classes. The main goal of my "1class" classes is do not to use any dependencies.
+JUnit-like class to test your programs for Java. It will help you in creating tests for your classes. The main goal of my "1class" classes is do not to use any dependencies.
 
 ## Usage
 
