@@ -6,7 +6,7 @@ JUnit-like class to test your programs for Java. It will help you in creating te
 
 ## Usage
 
-- Copy "src/JTest.java" to your project
+- Copy "src/jtest/JTest.java" to your project
 
 - Create instance of tester for test class and process tests, ex: `new JTest(Example1CalculatorTests.class).run();`
 
