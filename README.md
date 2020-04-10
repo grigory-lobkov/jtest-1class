@@ -8,9 +8,7 @@ JUnit-like class to test your programs for Java. It will help you in creating te
 
 - Copy "src/JTest.java" to your project
 
-- Create instance of tester, ex: `JTest test = new JTest();`
-
-- Process some test class, ex: `test.run("Example1CalculatorTests");`
+- Create instance of tester for test class and process tests, ex: `new JTest(Example1CalculatorTests.class).run();`
 
 ## Annotations for methods
 
@@ -26,10 +24,14 @@ int `priority` - to set priority for test and make some order in execution
 
 ## Assertions
 
-`Assert.equals` - check if equals for `int`, `long`, `Comparable`
+`Assert.assertEquals` - check if equals for `int`, `long`, `Comparable`
 
-`Assert.isNull` - check if `Object` is `null`
+`Assert.assertNull` - check if `Object` is `null`
+
+`Assert.assertTrue` - check if `boolean` is `true`
+
+`Assert.assertFalse` - check if `boolean` is `false`
 
 ## Contribution
 
-I wanted to create simple JUnit 5.x compatible framework, easy to use and deploy, without dependencies. You are welcome to improve it.
+We are creating simple [JUnit 5.x](https://junit.org/junit5/docs/current/user-guide/) compatible framework, easy to use and deploy, without dependencies. You are welcome to improve it. Target Java version is 1.5 for now.
